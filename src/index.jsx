@@ -13,12 +13,13 @@ import messages from './i18n';
 import ExamplePage from './example/ExamplePage';
 
 import './index.scss';
+import { Courses } from './courses';
 
 subscribe(APP_READY, () => {
   ReactDOM.render(
     <AppProvider>
       <Header />
-      <ExamplePage />
+      <Courses />
       <Footer />
     </AppProvider>,
     document.getElementById('root'),
