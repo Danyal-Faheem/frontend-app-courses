@@ -2,7 +2,7 @@
 import { Container, Spinner, Card, SearchField } from "@edx/paragon";
 import { useState } from "react";
 import { FormattedMessage } from "@edx/frontend-platform/i18n";
-import { useFetch } from "./hooks";
+import { useFetch } from "../hooks";
 
 const Courses = () => {
   const [query, setQuery] = useState(null);
