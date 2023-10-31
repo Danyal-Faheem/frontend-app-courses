@@ -7,7 +7,7 @@ frontend-template-application
 Purpose
 *******
 
-This repository is a template for Open edX micro-frontend applications. It is
+This repository is a template for OpenedX micro-frontend applications. It is
 flagged as a Template Repository, meaning it can be used as a basis for new
 GitHub repositories by clicking the green "Use this template" button above.
 The rest of this document describes how to work with your new micro-frontend
